@@ -6,5 +6,6 @@
 3. `knowledge_base/teacher/teacher_kb.md`
 4. `knowledge_base/student/student_kb.md`
 5. `knowledge_base/shared/course_roadmap_24m.md`
+6. `knowledge_base/shared/beginner_terms_card.md`
 
 本目录用于长期维护教学协商信息，防止context过期后出现漂移。

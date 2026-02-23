@@ -6,7 +6,8 @@
 1. 先读取 `00_PROJECT_CHARTER.md`（最高优先级）。
 2. 再读取教师知识库 `knowledge_base/teacher/teacher_kb.md`。
 3. 再读取学员知识库 `knowledge_base/student/student_kb.md`。
-4. 根据用户当前口令决定运行分支:
+4. 再读取术语卡 `knowledge_base/shared/beginner_terms_card.md`（用于0基础解释一致）。
+5. 根据用户当前口令决定运行分支:
    - "你学习下" -> 教师线。
    - "我来学习" -> 学员线。
 
