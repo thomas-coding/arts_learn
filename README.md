@@ -1,11 +1,13 @@
 # 2D游戏美术长期教学项目
 
-如果你是新进入的AI，请按以下顺序读取:
-1. `00_PROJECT_CHARTER.md`
-2. `01_AI_ONBOARDING.md`
-3. `knowledge_base/teacher/teacher_kb.md`
-4. `knowledge_base/student/student_kb.md`
-5. `knowledge_base/shared/course_roadmap_24m.md`
-6. `knowledge_base/shared/beginner_terms_card.md`
+默认启动流程（v2）:
+1. 读取 `.opencode/PROJECT_BRIEF.md`（长期目标与约束）。
+2. 读取 `.opencode/SESSION_STATE.md`（当日状态与下一步）。
 
-本目录用于长期维护教学协商信息，防止context过期后出现漂移。
+之后按当前任务按需读取其他文件，避免全量扫描，降低token消耗。
+
+历史协商与详细资料仍保留在以下文件，按需查阅:
+- `00_PROJECT_CHARTER.md`
+- `01_AI_ONBOARDING.md`
+- `knowledge_base/teacher/`
+- `knowledge_base/student/`

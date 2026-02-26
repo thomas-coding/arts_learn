@@ -1,23 +1,20 @@
-# AI入场指引（防漂移）
+# AI入场指引（v2，按需加载）
 
-此文件用于新AI在context缺失时快速恢复项目上下文。
+此文件是补充说明。默认每日启动流程以 `.opencode/PROJECT_BRIEF.md` 与 `.opencode/SESSION_STATE.md` 为准。
 
-## 入场步骤
-1. 先读取 `00_PROJECT_CHARTER.md`（最高优先级）。
-2. 再读取教师知识库 `knowledge_base/teacher/teacher_kb.md`。
-3. 再读取学员知识库 `knowledge_base/student/student_kb.md`。
-4. 再读取术语卡 `knowledge_base/shared/beginner_terms_card.md`（用于0基础解释一致）。
-5. 根据用户当前口令决定运行分支:
-   - "你学习下" -> 教师线。
-   - "我来学习" -> 学员线。
+## 默认流程（新）
+1. 仅用 `.opencode/PROJECT_BRIEF.md` + `.opencode/SESSION_STATE.md` 建立最小上下文。
+2. 启动阶段不主动全量读取知识库；根据当前任务再读取必要文件。
+3. 执行中持续遵守口令分支、60分钟SOP、闸门规则与库存规则。
+4. 日终由用户命令触发更新：常规更新 `.opencode/SESSION_STATE.md`；长期规则变化才更新 `.opencode/PROJECT_BRIEF.md`。
 
-## 必守规则
-- 不要强行改成固定排课周期。
-- 学员线开课前，教师线准备必须已完成。
-- 教师线每次要有"1节可上 + 额外3节预备"库存。
-- 每次执行后同步更新双知识库。
+## 按需读取建议
+- 教师线（`你学习下*`）: 优先读 `knowledge_base/teacher/teacher_kb.md` 与相关 `knowledge_base/teacher/lesson_*.md`。
+- 学员线（`我来学习`）: 优先读 `knowledge_base/student/student_kb.md`、`knowledge_base/student/class_C001_review.md` 与当次 `submissions/` 文件。
+- 协议争议或规则变更: 再读 `00_PROJECT_CHARTER.md` 作为历史协商参考。
 
-## 响应准则
-- 若用户发"你学习下": 输出教师线学习与备课成果，并更新知识库。
-- 若用户发"我来学习": 直接开1节60分钟课（step-by-step），课后给练习和验收。
-- 若用户提出改协议: 先确认变更点，再更新 `00_PROJECT_CHARTER.md` 的版本记录。
+## 必守规则（简版）
+- 不改为固定排课，保持口令驱动。
+- 不跳过前置与闸门，未达标先补强。
+- 教师线保持 `1 ready + 3 prepared` 库存。
+- 学员线按60分钟SOP执行并记录评分结论。
