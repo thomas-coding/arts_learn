@@ -15,7 +15,11 @@
 - Lesson rhythm: 60-minute SOP (`demonstration -> guided practice -> timed independent task -> rubric feedback`).
 - Gate rule: if total score or key dimension floor is unmet, do reinforcement first and do not advance.
 - Inventory rule: keep `1 ready + 3 prepared`.
-- Independent transfer checks must avoid sample-image dependency; tooling blockers must be cleared quickly.
+- Teacher line must pre-prepare scripts, sample outputs, and common fixes before student class to avoid in-class waiting.
+- For zero-foundation learner, explain each new concept first (`what -> why -> how -> pass/fail check`) before practice starts.
+- Student guidance must be step-by-step with explicit action order, time boxes, and quick checkpoints.
+- Provide samples by default for new tasks; keep independent transfer checks free from sample-image dependency.
+- Tooling blockers must be cleared quickly before core practice.
 
 ## Scope
 - In scope: maintain teacher SOP/rubric/error library/run logs and student delivery/review/scoring/progression decisions.
